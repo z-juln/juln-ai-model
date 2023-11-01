@@ -2,7 +2,7 @@ import os
 import openai
 from dotenv_flow import dotenv_flow
 
-dotenv_flow()
+dotenv_flow(env = None)
 
 openai.api_base = os.getenv('OPENAI_API_BASE')
 openai.api_key = os.getenv('OPENAI_API_KEY')
