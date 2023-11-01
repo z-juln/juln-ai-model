@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "juln-ai-model"
+version = "0.0.1"
+license = "MIT"
+description = "juln ai model"
+authors = ["juln <1850021148@qq.com>"]
+maintainers = ["juln <1850021148@qq.com>"]
+readme = "README.md"
+homepage = "https://github.com/z-juln/ai-model"
+repository = "https://github.com/z-juln/ai-model"
+documentation = "https://github.com/z-juln/ai-model"
+keywords = ["ai-model", "juln"]
+packages = [{ include = "ai-model", from = "src" }]
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/z-juln/ai-model/issues"
+"myself homepage" = "https://github.com/z-juln"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.28.1"
+dotenv-flow = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
